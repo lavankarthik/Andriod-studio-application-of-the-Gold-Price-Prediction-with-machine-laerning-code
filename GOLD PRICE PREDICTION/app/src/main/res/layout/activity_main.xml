@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/textSpx"
+        android:layout_width="match_parent"
+        android:hint="Enter SPX Value"
+        android:textSize="18sp"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/textUso"
+        android:layout_width="match_parent"
+        android:hint="Enter USO Value"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/textSlv"
+        android:layout_width="match_parent"
+        android:hint="Enter SLV Value"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/textCur"
+        android:layout_width="match_parent"
+        android:hint="Enter CUR Value"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp">
+    </EditText>
+
+    <Button
+        android:id="@+id/btnPredictGLD"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="10dp"
+        android:onClick="PredictGLD"
+        android:text="Predict Price" >
+    </Button>
+
+    <TextView
+        android:id="@+id/textGLD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_marginTop="10dp">
+    </TextView>
+
+</LinearLayout>
